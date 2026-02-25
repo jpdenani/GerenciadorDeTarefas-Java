@@ -1,1 +1,0 @@
-Detalhamento do front

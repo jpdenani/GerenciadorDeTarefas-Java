@@ -4,10 +4,10 @@ public class Tarefa {
 
     public Tarefa(String descricao) {
         this.descricao = descricao;
-        this.concluida = false; // Por padrão, a tarefa não está concluída
+        this.concluida = false; // por padrão, a tarefa não está concluída
     }
 
-    // Métodos para acessar as propriedades
+    // métodos para acessar as propriedades
     public String getDescricao() {
         return descricao;
     }
@@ -16,7 +16,7 @@ public class Tarefa {
         return concluida;
     }
 
-    // Método para marcar a tarefa como concluída
+    // método para marcar a tarefa como concluída
     public void marcarComoConcluida() {
         this.concluida = true;
     }
